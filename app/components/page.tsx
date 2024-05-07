@@ -13,7 +13,7 @@ export default function Home() {
     const [components, setComponents] = useState<JSX.Element[]>([]);
 
     const handleSpawnClick = () => {
-        setComponents([...components, <Button className="p-8 min-w-82 bg-orange-500">
+        setComponents([...components, <Button  key={components.length} className="p-8 min-w-82 bg-orange-500">
                                             I am new button
                                         </Button>]);
     }

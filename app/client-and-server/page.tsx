@@ -29,7 +29,7 @@ export default function Home() {
                     Ví dụ: các thành phần tương tác người dùng như nút bấm, biểu mẫu, hiển thị danh sách.
                 </p>
                 <p className="text-lg">
-                    Để sử dụng Client Components, ta có thể thêm chỉ thị <code className="bg-slate-950 text-white rounded-md px-1">"use client"</code> của React ở đầu tệp tin, đặt trước các lệnh import.
+                    Để sử dụng Client Components, ta có thể thêm chỉ thị <code className="bg-slate-950 text-white rounded-md px-1">&quot;use client&quot;</code> của React ở đầu tệp tin, đặt trước các lệnh import.
                 </p>
                 <Image
                     src="/useclient.png"
