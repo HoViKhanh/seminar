@@ -60,14 +60,7 @@ export function Content(){
                     </CardHeader>
                 </Card>
             </div>
-            <div className="flex w-full text-center space-x-6 px-4 items-center justify-center">
-            <Card className="w-1/3 py-8 hover:scale-110 transition-all hover:shadow-lg">
-                    <CardHeader>
-                        <CardTitle>07</CardTitle>
-                        <CardDescription className="font-bold">Middleware</CardDescription>
-                    </CardHeader>
-                </Card>
-            </div>
+
         </div>
     )
 }

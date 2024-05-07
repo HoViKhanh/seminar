@@ -1,6 +1,7 @@
 import * as React from "react"
 import {Introduction} from "@/components/Introduction"
 import {Content} from "@/components/Content"
+import {Greeting} from "@/components/Greeting"
 import {
   Carousel,
   CarouselContent,
@@ -15,9 +16,12 @@ export default function Home() {
       <Carousel className="w-full max-w-screen-lg">
         <CarouselContent>
         <CarouselItem key={1}>
-          <Introduction/>
+          <Greeting/>
         </CarouselItem>
         <CarouselItem key={2}>
+          <Introduction/>
+        </CarouselItem>
+        <CarouselItem key={3}>
           <Content/>
         </CarouselItem>
         </CarouselContent>
